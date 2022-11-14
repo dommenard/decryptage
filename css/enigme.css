@@ -343,3 +343,42 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+svg text {
+	animation: stroke 10s infinite alternate;
+    stroke-width: 1;
+    stroke: #365fa0;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,20,0);
+		stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%;
+		stroke-dasharray: 0 50%;
+		stroke-width: 1;
+		font-size: 14px;
+	}
+	
+	25%  {
+		fill: rgba(72,138,20,0);
+		stroke: rgba(204,155,200,1);
+		stroke-width: 1;
+		font-size: 18px;
+	}
+	
+	50%  {
+		fill: rgba(72,138,204,1);
+		stroke: rgba(180,25,10,1);
+		stroke-width: 3;
+		font-size: 15px;
+	}
+	
+	75% {
+		fill: rgba(72,138,204,1);
+		stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%;
+		stroke-dasharray: 50% 0;
+		stroke-width: 0;
+		font-size: 16px;
+	}
+}
