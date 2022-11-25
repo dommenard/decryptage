@@ -1,18 +1,9 @@
-var numerOfStep = 0;
-var isFail = false;
-var count = 0;
-var solution = [
-  2,
-  2,
-  3,
-  5,
-  2,
-  2,
-  3,
-  5
-];
-var success = "CF89HL";
-var icon = "img/battery-svgrepo-com.svg";
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var numerOfStep = 0;
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var isFail = false;
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var count = 0;
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var solution = [2,2,3,5,2,2,3,5];
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var success = "CF89HL";
+/*Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.*/var icon = "img/battery-svgrepo-com.svg";
 window.onload = function () {
 	$('body').bind('cut copy', function(e) {
         e.preventDefault();
@@ -27,7 +18,7 @@ window.onload = function () {
         }else{
 			$(".step1").append("<div class='box draggable floating2' data-step='1' style='left:"+left+"vw;top:"+top+"vh;'><img src='"+icon+"'></div>");
 		}
-
+		
 		if(left<80){
 			left += getRandomInt(10, 15);
 		}else{
@@ -43,7 +34,7 @@ window.onload = function () {
 				if(count>=10){
 					location.reload();
 				}
-
+	
 				var eWidth = ui.draggable.width();
 				var eHeight = ui.draggable.height();
 				var eBorderRadius = ui.draggable.css("borderRadius");
