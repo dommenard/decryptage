@@ -372,7 +372,7 @@ svg path {
     stroke: #365fa0;
 }
 
-svg path:nth-child(1) {
+/*svg path:nth-child(1) {
 	animation: stroke 10s infinite alternate,stroke1 10s infinite alternate;
 }
 
@@ -382,7 +382,7 @@ svg path:nth-child(2) {
 
 svg path:nth-child(3) {
 	animation: stroke 10s infinite alternate,stroke3 10s infinite alternate;
-}
+}*/
 
 @keyframes stroke {
 	0%   {
